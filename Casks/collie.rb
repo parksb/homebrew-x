@@ -6,7 +6,6 @@ cask "collie" do
   name "Collie"
   desc "A minimal RSS reader just for you"
   homepage "https://github.com/parksb/collie/"
-  license "GPL-3.0"
 
   app "Collie.app"
 end
