@@ -1,8 +1,10 @@
 class Md2html < Formula
+  version "0.0.6"
+  sha256 "9154b972527f5563fa9d4466227686bc0ed56140a6c4b46111be3caf740b38e3"
+
+  url "https://github.com/parksb/md2html/releases/download/#{version}/md2html.tar.gz"
   desc "cat input.md | md2html --template github > output.html"
   homepage "https://github.com/parksb/md2html"
-  url "https://github.com/parksb/md2html/releases/download/#{version}/md2html.tar.gz"
-  sha256 "9154b972527f5563fa9d4466227686bc0ed56140a6c4b46111be3caf740b38e3"
   license "MIT"
   depends_on "node"
 
