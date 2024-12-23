@@ -1,6 +1,6 @@
 class Md2html < Formula
-  version "0.0.7"
-  sha256 "4e62773ce93b7a2a6712fe4ac1a65cc64ce72c67365f167d880459fbcbe82684"
+  version "0.0.8"
+  sha256 "cd39811d9913ff85190d6110e7c711815da1ef0fbd2988bb4a806efcd662e419"
 
   url "https://github.com/parksb/md2html/releases/download/#{version}/md2html.tar.gz"
   desc "cat input.md | md2html --template github > output.html"
@@ -10,9 +10,7 @@ class Md2html < Formula
 
   def install
     bin.install "bin/md2html"
-    templates_path = (ENV["HOME"] + "/.config/md2html/templates")
-    FileUtils.mkpath templates_path
-    FileUtils.cp_r Dir["#{buildpath}/templates/*"], templates_path
+    prefix.install "templates"
   end
 
   test do
