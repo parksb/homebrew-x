@@ -13,10 +13,6 @@ class Ised < Formula
   end
     
   def install
-    if Hardware::CPU.arm?
-      bin.install "ised-aarch64-apple-darwin"
-    else
-      bin.install "ised-x86_64-apple-darwin"
-    end
+    bin.install "ised"
   end
 end
