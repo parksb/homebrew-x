@@ -1,8 +1,8 @@
 cask "collie" do
-  version "0.1.10"
-  sha256 "9e2e73b4d9de667c13d24cfb0d253f13f3922b6e038e0a8e410795cc9b5fff2c"
+  version "0.1.11"
+  sha256 "ffc8f48aae20116460f0be36f952b37e01e3438d7d48d84bc9ff493f87e910a8"
 
-  url "https://github.com/parksb/collie/releases/download/v#{version}/Collie_x64.app.tar.gz"
+  url "https://github.com/parksb/collie/releases/download/v#{version}/Collie_aarch64.app.tar.gz"
   name "Collie"
   desc "A minimal RSS reader just for you"
   homepage "https://github.com/parksb/collie/"
