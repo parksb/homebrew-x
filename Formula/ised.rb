@@ -6,10 +6,10 @@ class Ised < Formula
 
   if Hardware::CPU.arm?
     url "https://github.com/parksb/ised/releases/download/v#{version}/ised-aarch64-apple-darwin.tar.gz"
-    sha256 "74ce279b31c6cb88b1dcb054da8b3d326e007968a339cd961e98bfdc372a10d0"
+    sha256 "aace1ec1ee5923ab9ef5dc839d446cbf8fd656fd428e718d977eb07b233706be"
   else
     url "https://github.com/parksb/ised/releases/download/v#{version}/ised-x86_64-apple-darwin.tar.gz"
-    sha256 "47ef057d05947fe409159a39529d7287f2467ba53d65b57d403138e1ab647076"
+    sha256 "9a748df57ceec62c1764ed30593e77b56bbf22dfa634ef1eff35c7811226d5eb"
   end
     
   def install
