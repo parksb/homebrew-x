@@ -1,5 +1,5 @@
 class Ised < Formula
-  version "0.2.1"
+  version "0.3.0"
   desc "An interactive tool for find-and-replace across many files"
   homepage "https://github.com/parksb/ised"
   license "AGPL-3.0-or-later"
