@@ -1,6 +1,6 @@
 cask "collie" do
-  version "0.1.11"
-  sha256 "ffc8f48aae20116460f0be36f952b37e01e3438d7d48d84bc9ff493f87e910a8"
+  version "0.1.12"
+  sha256 "b14fa5d9fcfbba66e64377557b9933df871483568f1960a7c299d5feaa0d5630"
 
   url "https://github.com/parksb/collie/releases/download/v#{version}/Collie_aarch64.app.tar.gz"
   name "Collie"
